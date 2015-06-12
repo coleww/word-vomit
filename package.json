@@ -1,7 +1,7 @@
 {
   "name": "word-vomit",
   "version": "1.0.0",
-  "description": "",
+  "description": "word-vomit ----------------",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,19 @@
   "dependencies": {
     "pos": "^0.1.9",
     "spewer": "^0.1.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coleww/word-vomit"
+  },
+  "keywords": [
+    "poetry",
+    "language",
+    "vomit"
+  ],
+  "bugs": {
+    "url": "https://github.com/coleww/word-vomit/issues"
+  },
+  "homepage": "https://github.com/coleww/word-vomit"
 }
