@@ -1,10 +1,10 @@
 {
   "name": "word-vomit",
   "version": "1.0.0",
-  "description": "word-vomit ----------------",
+  "description": "Replaces words with other words of the same part-of-speech.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
@@ -12,7 +12,11 @@
     "pos": "^0.1.9",
     "spewer": "^0.1.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "tape": "^4.0.0",
+    "watchify": "^3.2.3"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/coleww/word-vomit"
