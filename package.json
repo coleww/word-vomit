@@ -7,6 +7,8 @@
     "wordVomit": "cmd.js"
   },
   "scripts": {
+    "build": "browserify www/demo.js -o www/bundle.js",
+    "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose",
     "test": "node test.js"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
