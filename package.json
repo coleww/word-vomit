@@ -1,6 +1,6 @@
 {
   "name": "word-vomit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replaces words with other words of the same part-of-speech.",
   "main": "index.js",
   "bin": {
