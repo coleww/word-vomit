@@ -16,23 +16,23 @@ var argv = require('yargs')
   .describe('f', 'path to file containing text to wordVomit all over')
   .argv
 
-if(process.stdin.isTTY) {
+if (process.stdin.isTTY) {
 
-  var text = argv.f ? fs.readFileSync(argv.f).toString() : argv._.join(" ")
+  var text = argv.f ? fs.readFileSync(argv.f).toString() : argv._.join(' ')
 
   process.stdout.write(wordVomit(text, argv.l))
-  process.stdout.write("\n")
+  process.stdout.write('\n')
 } else {
 
   var data = ''
   process.stdin.resume()
   process.stdin.setEncoding('utf8')
-  process.stdin.on('data', function(chunk) {
+  process.stdin.on('data', function (chunk) {
     data += chunk
   })
 
-  process.stdin.on('end', function() {
+  process.stdin.on('end', function () {
     process.stdout.write(wordVomit(data, argv.l))
-    process.stdout.write("\n")
+    process.stdout.write('\n')
   })
 }
