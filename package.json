@@ -9,7 +9,7 @@
   "scripts": {
     "build": "browserify www/demo.js -o www/bundle.js",
     "watch": "watchify www/demo.js -o www/bundle.js --debug --verbose",
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "author": "Cole Willsea <coleww@gmail.com> (http://colewillsea.com/)",
   "license": "MIT",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "browserify": "^10.2.4",
+    "standard": "^4.5.4",
     "tape": "^4.0.0",
     "watchify": "^3.2.3"
   },

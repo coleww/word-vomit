@@ -2,6 +2,8 @@ word-vomit
 ----------------
 
 [![NPM](https://nodei.co/npm/word-vomit.png)](https://nodei.co/npm/word-vomit/)
+[![Build Status](https://secure.travis-ci.org/coleww/word-vomit.png)](http://travis-ci.org/coleww/word-vomit)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Takes an input string, finds the part of speech of each word with [pos](https://www.npmjs.com/package/pos), and uses [spewer](https://www.npmjs.com/package/spewer) to replace it with a random word of the same part of speech. This mostly produces utter nonsense.
 
